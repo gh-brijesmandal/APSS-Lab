@@ -1,31 +1,13 @@
-export const homePage = (req,res) => {
-    res.send("This is the home page");
-}
+import Form from "./../models/contactForm.js";
 
-export const aboutProject = (req,res) => {
-    res.send("This is the about project page");
-}
-
-export const team = (req,res) => {
-    res.send("This is the team info page");
-}
-
-export const researchData = (req,res) => {
-    res.send("This is the research data page");
-}
-
-export const outreach = (req,res) => {
-    res.send("This is the outreach page");
-}
-
-export const newsGallery = (req,res) => {
-    res.send("This is the news gallery page");
-}
-
-export const publications = (req,res) => {
-    res.send("This is the publications page");
-}
-
-export const resources = (req,res) => {
-    res.send("This is the resources page");
+export const contactFormController = async(req,res) => {
+    try{
+        const { name, email, subject, message } = req.body;
+        const data = new Form({ name, email, subject, message });
+        const savedData = await data.save();
+        res.status(201).json(savedData);
+    }catch(error){
+        console.error("Error in contactFormController", error);
+        res.status(500).json({message: "Internal servor error"});
+    }
 }
