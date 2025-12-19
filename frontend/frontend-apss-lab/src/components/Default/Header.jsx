@@ -1,4 +1,5 @@
 // import "./styles.css";
+// takes css from homepage.css
 import React, { useState } from 'react'; 
 
 // Header Component
@@ -11,8 +12,8 @@ const Header = () => {
       <div className="header-container">
         <div className="header-content">
           <div className="logo">
-            <span className="logo-text">Advanced Plant and Soil Sensing Laboratory</span>
-            <span className='logo-text-short'>APSS LAB</span>
+            <span className="logo-text">iPACERS Project</span>
+            <span className='logo-text-short'>iPACERS</span>
           </div>
           <button 
             className="mobile-menu-button"

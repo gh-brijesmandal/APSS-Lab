@@ -1,0 +1,96 @@
+{
+  "pis": [
+    {
+      "name": "Dr. Nuwan K. Wijewardane",
+      "title": "Principal Investigator",
+      "department": "Agricultural & Biological Engineering, MSU",
+      "email": "nuwanw@abe.msstate.edu",
+      "bio": "Research focus on precision agriculture and plant stress monitoring.",
+      "image": "https://apsslab.abe.msstate.edu/wp-content/uploads/2022/03/Wijewardane-214x300.jpg"
+    }
+  ],
+  "coPis": [
+    {
+      "name": "Dr. Co-Investigator One",
+      "title": "Co-Principal Investigator",
+      "department": "Plant & Soil Sciences, MSU",
+      "email": "copi1@msstate.edu",
+      "bio": "Expertise in plant physiology and stress responses.",
+      "image": "/images/team/copi1.jpg"
+    },
+    {
+      "name": "Dr. Co-Investigator Two",
+      "title": "Co-Principal Investigator",
+      "department": "Geosystems Research Institute, MSU",
+      "email": "copi2@msstate.edu",
+      "bio": "Specializes in remote sensing and data analysis.",
+      "image": "/images/team/copi2.jpg"
+    }
+  ],
+  "gradStudents": [
+    {
+      "name": "Graduate Student One",
+      "title": "Ph.D. Candidate",
+      "department": "Agricultural & Biological Engineering",
+      "email": "grad1@msstate.edu",
+      "bio": "Research on high-throughput phenotyping systems.",
+      "image": "/images/team/grad1.jpg"
+    },
+    {
+      "name": "Graduate Student Two",
+      "title": "M.S. Student",
+      "department": "Plant & Soil Sciences",
+      "email": "grad2@msstate.edu",
+      "bio": "Investigating drought stress responses in crops.",
+      "image": "/images/team/grad2.jpg"
+    },
+    {
+      "name": "Graduate Student Three",
+      "title": "Ph.D. Candidate",
+      "department": "Agricultural & Biological Engineering",
+      "email": "grad3@msstate.edu",
+      "bio": "Developing machine learning models for plant stress detection.",
+      "image": "/images/team/grad3.jpg"
+    }
+  ],
+  "undergradStudents": [
+    {
+      "name": "Undergraduate Student One",
+      "title": "Research Assistant",
+      "department": "Biological Engineering",
+      "email": "undergrad1@msstate.edu",
+      "image": "/images/team/undergrad1.jpg"
+    },
+    {
+      "name": "Undergraduate Student Two",
+      "title": "Research Assistant",
+      "department": "Plant & Soil Sciences",
+      "email": "undergrad2@msstate.edu",
+      "image": "/images/team/undergrad2.jpg"
+    }
+  ],
+  "extensionStaff": [
+    {
+      "name": "Extension Coordinator",
+      "title": "Outreach & Education Specialist",
+      "department": "MSU Extension Service",
+      "email": "extension@msstate.edu",
+      "bio": "Coordinates summer camp and community outreach programs.",
+      "image": "/images/team/extension.jpg"
+    }
+  ],
+  "alumni": [
+    {
+      "name": "Former Student One",
+      "title": "Ph.D., 2024",
+      "department": "Now at: University Research Position",
+      "image": "/images/team/alumni1.jpg"
+    },
+    {
+      "name": "Former Student Two",
+      "title": "M.S., 2023",
+      "department": "Now at: Private Industry",
+      "image": "/images/team/alumni2.jpg"
+    }
+  ]
+}

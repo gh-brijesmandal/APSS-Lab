@@ -1,4 +1,4 @@
-import "../Homepage/Homepage.css";
+import "../Homepage/Homepage.css";   // takes css from homepage.css
 
 // Footer Component
 const Footer = () => {
