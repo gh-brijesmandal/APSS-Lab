@@ -1,0 +1,74 @@
+:root {
+    --msu-maroon: #5d1725;
+    --msu-white: #ffffff;
+    --light-gray: #f6f6f6;
+}
+
+.publications-page {
+    background-color: var(--msu-white);
+    min-height: 100vh;
+    padding: 2.5rem 6%;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.publications-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.publications-header h1 {
+    color: var(--msu-maroon);
+    font-size: 2.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.publications-header p {
+    max-width: 750px;
+    margin: 0 auto;
+    color: #444;
+}
+
+.pub-section {
+    margin-bottom: 3rem;
+}
+
+.pub-section h2 {
+    color: var(--msu-maroon);
+    border-left: 5px solid var(--msu-maroon);
+    padding-left: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.pub-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.pub-item {
+    background-color: var(--light-gray);
+    padding: 1.25rem 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1.25rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.pub-citation {
+    font-size: 0.95rem;
+    color: #222;
+    margin-bottom: 0.75rem;
+    line-height: 1.4;
+}
+
+.pub-link {
+    color: var(--msu-white);
+    background-color: var(--msu-maroon);
+    padding: 0.45rem 0.9rem;
+    border-radius: 5px;
+    font-size: 0.85rem;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.pub-link:hover {
+    background-color: #4a111d;
+}

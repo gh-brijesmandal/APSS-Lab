@@ -1,0 +1,32 @@
+{
+    "journals": [
+        {
+            "citation": "Smith, J., Mandal, B., & Doe, A. (2024). Data-driven decision support for agricultural systems. Journal of Agricultural Informatics.",
+            "link": "https://doi.org/10.1234/jai.2024.001"
+        }
+    ],
+    "conferences": [
+        {
+            "citation": "Mandal, B., Smith, J. (2023). Visual analytics for outreach education. Proceedings of the IEEE VIS Conference.",
+            "link": "/publications/ieee-vis-2023.pdf"
+        }
+    ],
+    "extension": [
+        {
+            "citation": "APSS Lab. (2022). Introduction to farm-level data literacy. Mississippi State University Extension Publication.",
+            "link": "https://extension.msstate.edu"
+        }
+    ],
+    "theses": [
+        {
+            "citation": "Doe, A. (2021). Machine learning applications in precision agriculture. M.S. Thesis, Mississippi State University.",
+            "link": "/publications/doe-ms-thesis.pdf"
+        }
+    ],
+    "students": [
+        {
+            "citation": "Summer Camp Students. (2024). Exploring agricultural data trends. APSS Outreach Poster Session.",
+            "link": "/publications/student-poster-2024.pdf"
+        }
+    ]
+}

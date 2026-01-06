@@ -1,8 +1,5 @@
 import nodemailer from "nodemailer";
-import dotenv from "dotenv";
 import Form from "./../models/contactForm.js";
-
-dotenv.config();
 
 // this just sends message to the form data submitter about his message being received
 async function sendEmail(savedData) {

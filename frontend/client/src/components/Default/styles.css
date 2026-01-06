@@ -103,12 +103,12 @@
   display: none;
 }
 
-@media (max-width: 1200px) and (min-width: 769px){
-  .logo-text{
-    display:none;
+@media (max-width: 1200px) and (min-width: 769px) {
+  .logo-text {
+    display: none;
   }
 
-  .logo-text-short{
+  .logo-text-short {
     display: inline;
     font-size: 1.5rem;
     font-weight: 700;
@@ -153,8 +153,6 @@
   }
 
 }
-
-
 
 .dropdown-main {
   font-size: 1.2em;
