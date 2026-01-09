@@ -12,16 +12,18 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 const __dirname = path.resolve();
 
-app.use(cors({
-    origin: ["http://localhost:5174","http://localhost:5173"],
+app.use(
+  cors({
+    origin: ["http://localhost:5174", "http://localhost:5173"],
     methods: "POST",
-    credentials: true
-}));
+    credentials: true,
+  })
+);
 app.use(express.json());
-app.use("/",appRouter);
+app.use("/api", appRouter);
 
 connectDB().then(() => {
-app.listen(PORT, () => {
-    console.log("Server running on http://localhost:"+PORT);
-})
-})
+  app.listen(PORT, () => {
+    console.log("Server running on http://localhost:" + PORT);
+  });
+});

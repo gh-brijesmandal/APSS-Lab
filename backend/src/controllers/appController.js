@@ -24,19 +24,17 @@ async function sendEmail(savedData) {
   console.log("Email sent:", info.messageId);
 }
 
-export const contactFormController = async(req,res) => {
-    try{
-        const { name, email, subject, message } = req.body;
-        const data = new Form({ name, email, subject, message });
-        const savedData = await data.save();
-        console.log("Data saved")
-        console.log(savedData)
-        sendEmail(savedData);
-;        res.status(201).json(savedData);
-
-
-    }catch(error){
-        console.error("Error in contactFormController", error);
-        res.status(500).json({message: "Internal servor error"});
-    }
-}
+export const contactFormController = async (req, res) => {
+  try {
+    const { name, email, subject, message } = req.body;
+    const data = new Form({ name, email, subject, message });
+    const savedData = await data.save();
+    console.log("Data saved");
+    console.log(savedData);
+    sendEmail(savedData);
+    res.status(201).json(savedData);
+  } catch (error) {
+    console.error("Error in contactFormController", error);
+    res.status(500).json({ message: "Internal servor error" });
+  }
+};
