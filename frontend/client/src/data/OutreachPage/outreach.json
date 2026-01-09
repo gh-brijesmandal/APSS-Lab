@@ -1,0 +1,321 @@
+{
+    "page": {
+        "title": "Outreach & Education",
+        "subtitle": "Inspiring the Next Generation of Agricultural Scientists",
+        "intro": "Our project includes several outreach efforts designed to engage students, teachers, and community members in cutting-edge agricultural research. Through hands-on learning experiences and educational programs, we bridge the gap between university research and K-12 education."
+    },
+    "programs": [
+        {
+            "id": "summer-camp",
+            "title": "Summer Research Camp",
+            "shortDescription": "Immersive week-long experience for high school students exploring plant stress research and agricultural technology.",
+            "icon": "☀️",
+            "color": "#5D1725",
+            "highlights": [
+                "Hands-on sensor technology training",
+                "Real greenhouse and field experiments",
+                "Data analysis and visualization",
+                "Meet MSU researchers and graduate students",
+                "Career exploration in agricultural sciences"
+            ],
+            "targetAudience": "High school students (grades 9-12)",
+            "duration": "1 week intensive program",
+            "nextSession": "June 2026",
+            "link": "/outreach/summer-camp",
+            "sections": {
+                "overview": {
+                    "title": "Camp Overview",
+                    "content": "The iPACERS Summer Research Camp offers high school students a unique opportunity to participate in real agricultural research. Students will work alongside MSU faculty and graduate students to understand how plants respond to heat and drought stress using state-of-the-art sensing technologies.",
+                    "prerequisites": "No prior experience required. Open to students grades 9-12 with interest in science, agriculture, or technology.",
+                    "objectives": [
+                        "Understand plant responses to environmental stress",
+                        "Learn to use advanced sensing equipment (PlantEye, OAK cameras, spectroscopy)",
+                        "Develop data collection and analysis skills",
+                        "Explore careers in agricultural sciences and engineering",
+                        "Build confidence in STEM fields"
+                    ]
+                },
+                "schedule": {
+                    "title": "Schedule & Activities",
+                    "weeklySchedule": [
+                        {
+                            "day": "Monday",
+                            "theme": "Introduction to Plant Stress",
+                            "activities": [
+                                "Welcome & lab safety orientation",
+                                "Tour of greenhouse facilities",
+                                "Introduction to heat and drought stress concepts",
+                                "Hands-on: Measuring plant temperature with thermal cameras"
+                            ]
+                        },
+                        {
+                            "day": "Tuesday",
+                            "theme": "Sensor Technology",
+                            "activities": [
+                                "PlantEye 3D scanning demonstration",
+                                "Soil moisture sensor installation",
+                                "Data logger programming basics",
+                                "Field site visit"
+                            ]
+                        },
+                        {
+                            "day": "Wednesday",
+                            "theme": "Data Collection",
+                            "activities": [
+                                "Student-led plant measurements",
+                                "Spectroscopy analysis workshop",
+                                "Environmental monitoring",
+                                "Group project planning"
+                            ]
+                        },
+                        {
+                            "day": "Thursday",
+                            "theme": "Analysis & Interpretation",
+                            "activities": [
+                                "Data visualization with Excel/Python",
+                                "Statistical analysis introduction",
+                                "Research presentation skills",
+                                "Career panel with agricultural professionals"
+                            ]
+                        },
+                        {
+                            "day": "Friday",
+                            "theme": "Showcase & Celebration",
+                            "activities": [
+                                "Final group presentations",
+                                "Student research posters",
+                                "Awards ceremony",
+                                "Graduation celebration with families"
+                            ]
+                        }
+                    ],
+                    "dailySchedule": "8:30 AM - 4:00 PM with lunch break and snacks provided"
+                },
+                "apply": {
+                    "title": "How to Apply",
+                    "applicationPeriod": "Applications open: February 1, 2026",
+                    "deadline": "Application deadline: May 1, 2026",
+                    "cost": "FREE - No cost to participants",
+                    "eligibility": [
+                        "Currently enrolled in grades 9-12",
+                        "Interest in science, agriculture, or technology",
+                        "Able to commit to full week program",
+                        "Transportation to/from MSU campus daily"
+                    ],
+                    "requirements": [
+                        "Completed application form",
+                        "One teacher or counselor recommendation",
+                        "Short essay (500 words): Why you're interested in agricultural research",
+                        "Parent/guardian consent form"
+                    ],
+                    "selectionProcess": "Applications reviewed on rolling basis. Students selected based on interest, essay quality, and diversity of perspectives. Limited spots available.",
+                    "applicationLink": "https://forms.msstate.edu/ipacers-summer-camp"
+                },
+                "parentsTeachers": {
+                    "title": "For Parents & Teachers",
+                    "forParents": {
+                        "title": "Parent Information",
+                        "details": [
+                            "Daily drop-off: 8:15 AM / Pick-up: 4:15 PM at ABE Building",
+                            "Lunch, snacks, and all materials provided at no cost",
+                            "Students should bring: Water bottle, sunscreen, comfortable outdoor shoes",
+                            "Supervision: Minimum 1 adult per 8 students at all times",
+                            "Safety: All activities follow MSU safety protocols; students receive safety training",
+                            "Communication: Daily email updates and photos shared with parents",
+                            "Emergency contact available 24/7 during camp week"
+                        ]
+                    },
+                    "forTeachers": {
+                        "title": "Teacher Partnership Opportunities",
+                        "details": [
+                            "Bring your class: Group registration available for school groups",
+                            "Curriculum alignment: Activities aligned with MS Science Standards",
+                            "Professional development: Teachers attend free, receive continuing education credit",
+                            "Classroom extensions: Take-home lesson plans and activities",
+                            "Equipment loans: Borrow soil moisture sensors for your classroom",
+                            "Guest speakers: Schedule researcher visits to your school"
+                        ]
+                    }
+                },
+                "gallery": {
+                    "title": "Photos & Testimonials",
+                    "photos": [
+                        "Students using PlantEye scanner in greenhouse",
+                        "Group analyzing data on laptops",
+                        "Field site tour with graduate student mentors",
+                        "Final presentation day with families",
+                        "Hands-on soil moisture demonstration"
+                    ],
+                    "testimonials": [
+                        {
+                            "quote": "I never knew agricultural science involved so much technology! This camp opened my eyes to amazing career possibilities.",
+                            "student": "Sarah M., 11th grade",
+                            "year": "2025"
+                        },
+                        {
+                            "quote": "The graduate students were so supportive and made complex concepts easy to understand. I'm now considering agricultural engineering for college!",
+                            "student": "James T., 10th grade",
+                            "year": "2025"
+                        },
+                        {
+                            "quote": "My daughter came home every day excited to tell us what she learned. This program sparked a genuine passion for science.",
+                            "parent": "Parent of camper",
+                            "year": "2025"
+                        }
+                    ]
+                },
+                "faq": {
+                    "title": "Frequently Asked Questions",
+                    "questions": [
+                        {
+                            "q": "Do I need prior experience in agriculture or science?",
+                            "a": "No! The camp is designed for students of all backgrounds. We'll teach you everything you need to know."
+                        },
+                        {
+                            "q": "What should I bring?",
+                            "a": "Bring a water bottle, sunscreen, hat, and comfortable shoes for outdoor work. We provide all research equipment, materials, and meals."
+                        },
+                        {
+                            "q": "Will we be outside in the heat?",
+                            "a": "We work both indoors (greenhouse, labs) and outdoors (field sites). All outdoor activities include shade breaks and hydration. We monitor weather and adjust schedule for safety."
+                        },
+                        {
+                            "q": "Can I use my phone during camp?",
+                            "a": "Phones are allowed during breaks and lunch. During activities, we ask students to focus on hands-on learning, but phones can be used for taking photos of experiments."
+                        },
+                        {
+                            "q": "Is this a residential camp?",
+                            "a": "No, this is a day camp. Students commute daily to MSU campus."
+                        },
+                        {
+                            "q": "How are students selected?",
+                            "a": "We review applications holistically, considering your interest, essay, and recommendation. We aim for diverse cohorts representing different schools and backgrounds."
+                        }
+                    ]
+                },
+                "contact": {
+                    "title": "Camp Contact",
+                    "coordinator": "Dr. Jane Smith",
+                    "email": "ipacers.camp@msstate.edu",
+                    "phone": "(662) 325-XXXX",
+                    "office": "Agricultural & Biological Engineering, MSU",
+                    "hours": "Monday-Friday, 8:00 AM - 5:00 PM"
+                }
+            }
+        },
+        {
+            "id": "other-activities",
+            "title": "Other Outreach Activities",
+            "shortDescription": "Workshops, school visits, extension events, and community engagement throughout the year.",
+            "icon": "🌱",
+            "color": "#8B2332",
+            "highlights": [
+                "Classroom visits and modules",
+                "Extension field days",
+                "Teacher professional development",
+                "Community science events",
+                "Virtual learning opportunities"
+            ],
+            "targetAudience": "K-12 students, teachers, community members",
+            "duration": "Year-round programming",
+            "nextSession": "Ongoing",
+            "link": "/outreach/activities",
+            "activities": [
+                {
+                    "id": "workshops",
+                    "title": "Workshops & Field Days",
+                    "description": "Interactive workshops and field demonstrations for students, teachers, and community members to learn about agricultural research and technology.",
+                    "audience": "Middle & high school students, teachers, farmers",
+                    "topics": [
+                        "Introduction to precision agriculture",
+                        "Plant stress identification workshop",
+                        "Sensor technology demonstrations",
+                        "Data-driven farming decisions"
+                    ],
+                    "upcoming": [
+                        "Spring Field Day - April 15, 2026",
+                        "Precision Ag Workshop - March 20, 2026"
+                    ],
+                    "howToParticipate": "Events are free and open to the public. Registration required. Contact us to host a workshop at your school or organization."
+                },
+                {
+                    "id": "school-visits",
+                    "title": "School Visits & Classroom Modules",
+                    "description": "We bring the research to you! MSU researchers and graduate students visit K-12 classrooms with hands-on activities and lessons aligned with state science standards.",
+                    "audience": "K-12 classrooms",
+                    "availableModules": [
+                        {
+                            "title": "Plants Under Stress (Grades 6-8)",
+                            "duration": "50 minutes",
+                            "activities": "Leaf temperature experiments, drought simulation"
+                        },
+                        {
+                            "title": "Agricultural Technology (Grades 9-12)",
+                            "duration": "90 minutes",
+                            "activities": "Sensor demonstrations, data analysis"
+                        },
+                        {
+                            "title": "Growing Our Food (Grades 3-5)",
+                            "duration": "45 minutes",
+                            "activities": "Plant needs, soil exploration"
+                        }
+                    ],
+                    "materials": "All materials and equipment provided. Downloadable lesson plans available for teacher use.",
+                    "howToRequest": "Submit request form at least 4 weeks in advance. Priority given to Mississippi schools within 100 miles of MSU."
+                },
+                {
+                    "id": "extension",
+                    "title": "Extension & Community Events",
+                    "description": "Partnering with MSU Extension Service to bring research findings to farmers, county agents, and community members across Mississippi.",
+                    "audience": "Farmers, extension agents, general public",
+                    "activities": [
+                        "County extension office demonstrations",
+                        "Agricultural fairs and expos",
+                        "Farm visits and on-site consultations",
+                        "Webinar series on drought management"
+                    ],
+                    "recentEvents": [
+                        "Sunflower River County Extension Demo - October 2025",
+                        "Mississippi Farm Bureau Convention - December 2025",
+                        "Regional Precision Ag Conference - September 2025"
+                    ],
+                    "howToEngage": "Contact your county extension office or email us directly to schedule an event or request information."
+                }
+            ]
+        }
+    ],
+    "impact": {
+        "title": "Our Impact",
+        "stats": [
+            {
+                "number": "250+",
+                "label": "Students reached annually"
+            },
+            {
+                "number": "30+",
+                "label": "School partnerships"
+            },
+            {
+                "number": "15",
+                "label": "Counties served"
+            },
+            {
+                "number": "500+",
+                "label": "Community members engaged"
+            }
+        ]
+    },
+    "getInvolved": {
+        "title": "Get Involved",
+        "opportunities": [
+            "Volunteer as a mentor during summer camp",
+            "Host a field day at your school or organization",
+            "Partner with us on curriculum development",
+            "Provide feedback on outreach activities"
+        ],
+        "contact": {
+            "email": "ipacers.outreach@msstate.edu",
+            "phone": "(662) 325-XXXX"
+        }
+    }
+}

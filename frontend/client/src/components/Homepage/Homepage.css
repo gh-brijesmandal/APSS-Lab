@@ -192,6 +192,7 @@
      margin-bottom: 2.5rem;
      line-height: 1.7;
      opacity: 0.95;
+     padding: 1.5rem;
    }
 
    .hero-buttons {
@@ -503,4 +504,21 @@
        width: 100%;
        justify-content: center;
      }
+   }
+
+   .page-author-message {
+     width: 95%;
+     padding: 5px;
+     margin: 2px auto;
+     text-align: center;
+     font-size: smaller;
+     background-color: #cbc4c4;
+   }
+
+   .page-author-message:hover {
+     /* A gray gradient from top to bottom */
+     background-image: linear-gradient(to bottom, #d3d3d3, #a9a9a9);
+     color: #000;
+     /* Optional: Change text color on hover for better contrast */
+     transition: 0.4s ease-in-out;
    }

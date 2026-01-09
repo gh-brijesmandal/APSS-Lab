@@ -3,14 +3,9 @@ import "./Header.css";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
-  const [outreachOpen, setOutreachOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
-  };
-
-  const toggleOutreach = () => {
-    setOutreachOpen(!outreachOpen);
   };
 
   return (
@@ -19,7 +14,6 @@ export default function Header() {
         <div className="navbar-logo">
           <a href="/">iPACERS Project</a>
         </div>
-
         <button
           className={`hamburger ${isOpen ? "active" : ""}`}
           onClick={toggleMenu}
@@ -29,7 +23,6 @@ export default function Header() {
           <span></span>
           <span></span>
         </button>
-
         <ul className={`navbar-menu ${isOpen ? "active" : ""}`}>
           <li className="navbar-item">
             <a
@@ -67,45 +60,18 @@ export default function Header() {
               Research & Data
             </a>
           </li>
-          <li className="navbar-item navbar-dropdown">
+          <li className="navbar-item">
             <a
-              href="#outreach"
+              href="/outreach"
               className="navbar-link"
-              onClick={(e) => {
-                e.preventDefault();
-                toggleOutreach();
-              }}
+              onClick={() => setIsOpen(false)}
             >
-              Outreach <span className="dropdown-arrow">▾</span>
+              Outreach
             </a>
-            <ul className={`dropdown-menu ${outreachOpen ? "active" : ""}`}>
-              <li>
-                <a
-                  href="#summer-camp"
-                  onClick={() => {
-                    setIsOpen(false);
-                    setOutreachOpen(false);
-                  }}
-                >
-                  Summer Camp
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#other-outreach"
-                  onClick={() => {
-                    setIsOpen(false);
-                    setOutreachOpen(false);
-                  }}
-                >
-                  Other Activities
-                </a>
-              </li>
-            </ul>
           </li>
           <li className="navbar-item">
             <a
-              href="#news"
+              href="/news"
               className="navbar-link"
               onClick={() => setIsOpen(false)}
             >

@@ -1,6 +1,9 @@
 import React from "react";
 import "./Publications.css";
 import publications from "../../data/PublicationsPage/publications.json";
+import Header from "../Default/Header";
+import Footer from "../Default/Footer";
+import Links from "../Default/Links";
 
 const PublicationSection = ({ title, items }) => (
   <section className="pub-section">
@@ -25,39 +28,44 @@ const PublicationSection = ({ title, items }) => (
 
 export default function Publications() {
   return (
-    <div className="publications-page">
-      <header className="publications-header">
-        <h1>Publications</h1>
-        <p>
-          Scholarly and outreach publications associated with this APSS Lab
-          project at Mississippi State University.
-        </p>
-      </header>
+    <>
+      <Header></Header>
+      <div className="publications-page">
+        <header className="publications-header">
+          <h1>Publications</h1>
+          <p>
+            Scholarly and outreach publications associated with this APSS Lab
+            project at Mississippi State University.
+          </p>
+        </header>
 
-      <PublicationSection
-        title="Peer-Reviewed Journal Articles"
-        items={publications.journals}
-      />
+        <PublicationSection
+          title="Peer-Reviewed Journal Articles"
+          items={publications.journals}
+        />
 
-      <PublicationSection
-        title="Conference Papers & Posters"
-        items={publications.conferences}
-      />
+        <PublicationSection
+          title="Conference Papers & Posters"
+          items={publications.conferences}
+        />
 
-      <PublicationSection
-        title="Extension Publications & Fact Sheets"
-        items={publications.extension}
-      />
+        <PublicationSection
+          title="Extension Publications & Fact Sheets"
+          items={publications.extension}
+        />
 
-      <PublicationSection
-        title="Theses & Dissertations"
-        items={publications.theses}
-      />
+        <PublicationSection
+          title="Theses & Dissertations"
+          items={publications.theses}
+        />
 
-      <PublicationSection
-        title="Student Presentations"
-        items={publications.students}
-      />
-    </div>
+        <PublicationSection
+          title="Student Presentations"
+          items={publications.students}
+        />
+      </div>
+      <Links />
+      <Footer />
+    </>
   );
 }
