@@ -17,7 +17,8 @@ app.use(
     origin: [
       "http://localhost:5174",
       "http://localhost:5173",
-      "https://ipacers-project.netlify.app/",
+      "https://ipacers-project.netlify.app",
+      "https://ipacers-project.netlify.app/contact",
     ],
     methods: "POST",
     credentials: true,
