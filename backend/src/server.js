@@ -12,13 +12,15 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 const __dirname = path.resolve();
 
-app.use(
-  cors({
-    origin: ["http://localhost:5174", "http://localhost:5173"],
-    methods: "POST",
-    credentials: true,
-  })
-);
+if (process.env.NODE_ENV !== "production") {
+  app.use(
+    cors({
+      origin: ["http://localhost:5174", "http://localhost:5173"],
+      methods: "POST",
+      credentials: true,
+    })
+  );
+}
 app.use(express.json());
 app.use("/api", appRouter);
 
