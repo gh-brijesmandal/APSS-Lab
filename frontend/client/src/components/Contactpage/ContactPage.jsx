@@ -4,6 +4,10 @@ import Header from "../Default/Header.jsx";
 import Footer from "../Default/Footer.jsx";
 import Links from "../Default/Links.jsx";
 
+const API_URL = import.meta.env.PROD
+  ? "https://apss-lab-api.onrender.com/api/contact"
+  : "http://localhost:3000/api/contact";
+
 const ContactPage = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -22,7 +26,7 @@ const ContactPage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch("http://localhost:3000/api/contact", {
+      const res = await fetch(API_URL, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
